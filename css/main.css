@@ -1,11 +1,21 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: auto;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-</style>
+
+body {
+  margin: 0;
+  padding; 0;
+  color: #ffcccb;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+}
