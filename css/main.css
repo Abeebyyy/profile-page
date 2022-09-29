@@ -19,8 +19,14 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   line-height: 1.5;
   font-weight: lighter;
-  font-size: 7em;
+  font-size: 8em;
 }
+
+.sub-heading {
+  font-size: 1.25em;
+  color: grey;
+}
+
 
 nav {
   background-color: #000;
@@ -60,7 +66,7 @@ nav ul li a:hover {
 
 .hero-banner {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-color: white;
   background-image: url('https://media.discordapp.net/attachments/817653069440483338/1018882510379286599/px9m0oalgkd81.jpg.webp');
   background-repeat: no-repeat;
@@ -69,5 +75,24 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: left;
-  padding-left: 15rem;
+  padding-left: 10rem;
 }
+
+.intro {
+  padding: 3em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.intro img {
+  width: 200px;
+  margin-top: 40px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: transform .5s ease;
+}
+
+.intro img:hover {
+  filter: drop-shadow(10px 10px 10px black);
+  transition: .3s ease-in-out;
+  transform: scale(1.2);
