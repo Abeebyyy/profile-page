@@ -156,3 +156,10 @@ h2 {
   height: 100%;
   width: 100%;
 }
+
+footer {
+  background-color: #000;
+  color: #ffcccb;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
